@@ -4,7 +4,7 @@
     "beforeBuildCommand": "npm run build",
     "devPath": "http://localhost:1420",
     "distDir": "../dist",
-    "withGlobalTauri": false
+    "withGlobalTauri": true
   },
   "package": {
     "productName": "知我",
@@ -19,6 +19,11 @@
       }
     },
     "bundle": {
+      "windows": {
+        "wix": {
+          "language": "zh-CN"
+        }
+      },
       "active": true,
       "targets": "all",
       "identifier": "com.panic.coder",
@@ -39,7 +44,8 @@
         "resizable": false,
         "title": "知我",
         "width": 1040,
-        "height": 720
+        "height": 720,
+        "center": true
       }
     ]
   }
