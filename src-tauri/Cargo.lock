@@ -2815,22 +2815,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "tauri-app"
-version = "0.0.0"
-dependencies = [
- "aes",
- "block-modes",
- "crypto-hash",
- "hex 0.4.3",
- "hex-literal",
- "md5",
- "serde",
- "serde_json",
- "tauri",
- "tauri-build",
-]
-
-[[package]]
 name = "tauri-build"
 version = "1.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -3828,4 +3812,20 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f4686009f71ff3e5c4dbcf1a282d0a44db3f021ba69350cd42086b3e5f1c6985"
 dependencies = [
  "libc",
+]
+
+[[package]]
+name = "知我"
+version = "1.0.0"
+dependencies = [
+ "aes",
+ "block-modes",
+ "crypto-hash",
+ "hex 0.4.3",
+ "hex-literal",
+ "md5",
+ "serde",
+ "serde_json",
+ "tauri",
+ "tauri-build",
 ]

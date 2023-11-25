@@ -7,8 +7,8 @@
     "withGlobalTauri": false
   },
   "package": {
-    "productName": "简易逆向助手",
-    "version": "0.0.1"
+    "productName": "知我",
+    "version": "1.0.0"
   },
   "tauri": {
     "allowlist": {
@@ -37,7 +37,7 @@
       {
         "fullscreen": false,
         "resizable": false,
-        "title": "重生之我有一个系统",
+        "title": "知我",
         "width": 1040,
         "height": 720
       }
