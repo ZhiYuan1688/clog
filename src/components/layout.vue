@@ -77,5 +77,7 @@ const onClickMenuItem = (key) => {
   background-color: #f1f1f1 !important;
   border-radius: 8px;
 }
-
+:deep(.arco-menu-light .arco-menu-item) {
+  transition: background-color 0.5s ease;
+}
 </style>
